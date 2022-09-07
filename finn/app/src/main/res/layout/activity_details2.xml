@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Mback"
+    tools:context=".DetailsActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="14dp"
+        style="@style/Mback"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            style="@style/Sback">
+
+
+            <TextView
+                android:id="@+id/des"
+                android:layout_width="match_parent"
+                android:layout_height="162dp"
+                android:layout_below="@+id/textView3"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="6dp"
+                android:padding="15dp"
+                android:scrollbars="vertical"
+                android:text="      An armchair with a comfortable, cushioned chair with and a support on each side, where you can rest your arms while you sit. Some armchairs are big enough that you can curl up and read a book in them. Armchairs are distinguished by their arms, rests built to comfortably "
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_alignEnd="@+id/name"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="57dp"
+                android:layout_marginEnd="28dp"
+                android:text="الوصف: "
+                android:textColor="#888888"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="25dp"
+                android:background="@drawable/gradient_2"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="5dp"
+                android:text="الرّي"
+                android:textColor="@color/white"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="26dp"
+                android:text="حديقة الحيوان"
+                android:textColor="#ffffff"
+                android:textSize="32sp"
+                android:transitionName="nameTransition" />
+
+            <Button
+                android:id="@+id/loca"
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/des"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="110dp"
+                android:paddingBottom="10dp"
+                android:text="الموقع"
+                android:textSize="22.5dp"
+                android:textColor="@color/white"
+                app:cornerRadius="20dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/des"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="7dp" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-8dp"
+        android:layout_marginEnd="1dp" />
+
+
+</RelativeLayout>

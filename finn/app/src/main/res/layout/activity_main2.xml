@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Mback"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/dark"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/sun"
+            android:backgroundTint="#25A4E4" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="95dp"
+            android:padding="5dp"
+            android:text="الصفحة الرئيسية"
+            android:textAlignment="viewEnd"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="576dp"
+        android:layout_marginTop="5dp">
+
+    </FrameLayout>
+
+
+    <com.etebarian.meowbottomnavigation.MeowBottomNavigation
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:mbn_backgroundBottomColor="#FAF9F9"
+        app:mbn_circleColor="#25A4E4"
+        app:mbn_countBackgroundColor="#ff6f00"
+        app:mbn_defaultIconColor="#25A4E4"
+        app:mbn_rippleColor="#2F1114BC"
+        app:mbn_selectedIconColor="#ffffff" />
+</LinearLayout>

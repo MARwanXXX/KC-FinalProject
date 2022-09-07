@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "761653967732",
+    "project_id": "finn-8b9cd",
+    "storage_bucket": "finn-8b9cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761653967732:android:a1c10236ae995115314a21",
+        "android_client_info": {
+          "package_name": "com.example.finn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761653967732-4gir1le0oo2320hjepeaq68v5o795mq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA62oKktI5TQ2JiW6qEjF0CxfSKx3aEaxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "761653967732-4gir1le0oo2320hjepeaq68v5o795mq5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

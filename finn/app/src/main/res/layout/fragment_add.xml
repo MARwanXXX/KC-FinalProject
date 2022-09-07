@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Mback"
+    android:orientation="vertical"
+    tools:context=".Fragments.Add">
+
+    <ImageView
+        android:id="@+id/addImage"
+        style="@style/tint"
+        android:layout_width="213dp"
+        android:layout_height="163dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_add_image" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawableStart="@drawable/ic_pencil"
+        android:drawablePadding="12dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        style="@style/Iback"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="الأسم" />
+
+    <EditText
+        android:id="@+id/desEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawableStart="@drawable/ic_info"
+        android:drawablePadding="12dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        style="@style/Iback"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="الوصف" />
+
+    <EditText
+        android:id="@+id/placeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawableStart="@drawable/ic_marker"
+        android:drawablePadding="12dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        style="@style/Iback"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="الموقع" />
+
+    <EditText
+        android:id="@+id/linkEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawableStart="@drawable/ic_link_alt"
+        android:drawablePadding="12dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        style="@style/Iback"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="رابط الموقع" />
+
+    <Button
+        android:id="@+id/done"
+        style="@style/Sback"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="إضافة"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+</LinearLayout>
